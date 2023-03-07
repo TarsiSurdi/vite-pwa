@@ -1,7 +1,12 @@
+import { Counter, Timer, Todo } from "./components";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello, World!</h1>
+      <h1>Vite PWA Testing</h1>
+      <Counter />
+      <Timer />
+      <Todo />
     </div>
   );
 }
