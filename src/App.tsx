@@ -1,4 +1,4 @@
-import { Counter, Timer, Todo, Slider } from "./components";
+import { Counter, Timer, Todo, Slider, QuantityPicker } from "./components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Timer />
       <Todo />
       <Slider />
+      <QuantityPicker />
     </div>
   );
 }
