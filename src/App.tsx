@@ -1,4 +1,5 @@
-import { Counter, Timer, Todo, Slider, QuantityPicker } from "./components";
+import { Slider, QuantityPicker } from "./components";
+import { Counter, Timer, Todo } from "./classComponents";
 
 function App() {
   return (
