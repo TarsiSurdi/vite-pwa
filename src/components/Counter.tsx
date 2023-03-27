@@ -10,7 +10,11 @@ export function Counter() {
   return (
     <div id="counter">
       <h2>Counter</h2>
-      <p>You&apos;ve clicked the button {count} times</p>
+      {count > 0 && (
+        <p>
+          You&apos;ve clicked the button {count} time{count > 1 && "s"}
+        </p>
+      )}
       <button onClick={handleClick}>Click me!</button>
     </div>
   );
